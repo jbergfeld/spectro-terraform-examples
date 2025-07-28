@@ -1,10 +1,7 @@
-# vSphere provider vars
-variable "vsphere_datacenter" {}
-variable "vsphere_folder" {}
-variable "vsphere_cluster" {}
-variable "vsphere_resource_pool" {}
-variable "vsphere_datastore" {}
-variable "vsphere_network" {}
-variable "vsphere_search_domain" {}
-variable "vsphere_template_folder" {}
-variable "cluster_ssh_public_key" {}
+variable "sc_project_name" {}
+variable"sc_host" {}
+variable "sc_api_key" {}
+variable "ssh_keys" {}
+variable "vip" {}
+variable "overlay_cidr_range" {}
+variable "host_uid" {}
