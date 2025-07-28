@@ -15,7 +15,7 @@ resource "spectrocloud_cluster_edge_native" "cluster" {
   machine_pool {
     control_plane           = true
     control_plane_as_worker = true
-    name                    = "all-in-one"      #this is for a single node example
+    name                    = "all-in-one"      #change this name if you want
 
     edge_host {
       host_uid  = var.host_uid                  #his will be whatever you edge device registers as ie. edge-blablah1234213 etc
