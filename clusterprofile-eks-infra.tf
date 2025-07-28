@@ -1,7 +1,7 @@
-resource "spectrocloud_cluster_profile" "simple_vsphere_cp" {
-  name        = "tf-infra-vsphere-profile"
-  description = "Simple vSphere infrastructure cluster profile managed by Terraform."
-  cloud       = "vsphere"
+resource "spectrocloud_cluster_profile" "simple_eks_cp" {
+  name        = "tf-infra-eks-profile"
+  description = "Simple EKS infrastructure cluster profile managed by Terraform."
+  cloud       = "eks"
   type        = "infra"
   version     = "1.0.0"
 
